@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="Arif Rahman" version="3.40.10-Bratislava" saveUser="kisho" projectname="" saveDateTime="2025-09-28T16:27:24">
+<qgis saveUserFull="Arif Rahman" version="3.40.10-Bratislava" saveUser="kisho" projectname="" saveDateTime="2025-09-28T16:40:43">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -35,18 +35,18 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-layer legend_exp="" id="ne_10m_admin_0_countries_f70abd9c_80c2_43d6_b0fa_4dd20b92678c" source="../qg_test/countries.geojson|geometrytype=Polygon|uniqueGeometryType=yes" legend_split_behavior="0" expanded="1" checked="Qt::Checked" name="countries" providerKey="ogr" patch_size="-1,-1">
+    <layer-tree-layer legend_exp="" id="ne_10m_admin_0_countries_92ec40da_9fd8_4d0d_bed0_0c5faba4994e" source="./countries.geojson|geometrytype=Polygon|uniqueGeometryType=yes" legend_split_behavior="0" expanded="1" checked="Qt::Checked" name="countries" providerKey="ogr" patch_size="-1,-1">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
     <custom-order enabled="0">
-      <item>ne_10m_admin_0_countries_f70abd9c_80c2_43d6_b0fa_4dd20b92678c</item>
+      <item>ne_10m_admin_0_countries_92ec40da_9fd8_4d0d_bed0_0c5faba4994e</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings mode="2" self-snapping="0" intersection-snapping="0" minScale="0" enabled="0" type="1" scaleDependencyMode="0" tolerance="12" unit="1" maxScale="0">
     <individual-layer-settings>
-      <layer-setting minScale="0" id="ne_10m_admin_0_countries_f70abd9c_80c2_43d6_b0fa_4dd20b92678c" enabled="0" type="1" units="1" tolerance="12" maxScale="0"/>
+      <layer-setting minScale="0" id="ne_10m_admin_0_countries_92ec40da_9fd8_4d0d_bed0_0c5faba4994e" enabled="0" type="1" units="1" tolerance="12" maxScale="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -54,10 +54,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
-      <xmin>4.04252265431037916</xmin>
-      <ymin>52.03125416315126728</ymin>
-      <xmax>4.66953259762788253</xmax>
-      <ymax>52.41641401155894897</ymax>
+      <xmin>-189</xmin>
+      <ymin>-94.34085252500000252</ymin>
+      <xmax>189</xmax>
+      <ymax>87.97495352499998944</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -80,7 +80,7 @@
   <legend updateDrawingOrder="true">
     <legendlayer drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0" name="countries" open="true">
       <filegroup hidden="false" open="true">
-        <legendlayerfile layerid="ne_10m_admin_0_countries_f70abd9c_80c2_43d6_b0fa_4dd20b92678c" visible="1" isInOverview="0"/>
+        <legendlayerfile layerid="ne_10m_admin_0_countries_92ec40da_9fd8_4d0d_bed0_0c5faba4994e" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -159,8 +159,8 @@
         <xmax>180</xmax>
         <ymax>83.63410100000000114</ymax>
       </wgs84extent>
-      <id>ne_10m_admin_0_countries_f70abd9c_80c2_43d6_b0fa_4dd20b92678c</id>
-      <datasource>../qg_test/countries.geojson|geometrytype=Polygon|uniqueGeometryType=yes</datasource>
+      <id>ne_10m_admin_0_countries_92ec40da_9fd8_4d0d_bed0_0c5faba4994e</id>
+      <datasource>./countries.geojson|geometrytype=Polygon|uniqueGeometryType=yes</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -260,7 +260,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleLine" locked="0" id="{99387c34-c9af-4f41-8a61-5c32d29ed912}" enabled="1" pass="0">
+            <layer class="SimpleLine" locked="0" id="{5e704779-227d-4252-abb6-eebd0e693b95}" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="align_dash_pattern"/>
                 <Option value="square" type="QString" name="capstyle"/>
@@ -272,7 +272,7 @@
                 <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
                 <Option value="0" type="QString" name="draw_inside_polygon"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
-                <Option value="213,180,60,255,rgb:0.83529411764705885,0.70588235294117652,0.23529411764705882,1" type="QString" name="line_color"/>
+                <Option value="229,182,54,255,rgb:0.89803921568627454,0.71372549019607845,0.21176470588235294,1" type="QString" name="line_color"/>
                 <Option value="solid" type="QString" name="line_style"/>
                 <Option value="0.6" type="QString" name="line_width"/>
                 <Option value="MM" type="QString" name="line_width_unit"/>
@@ -309,15 +309,15 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" locked="0" id="{e71a38ef-9666-405a-9564-9c40cd0d0b82}" enabled="1" pass="0">
+            <layer class="SimpleFill" locked="0" id="{4ec7dc39-8819-4e96-a004-8c0544e015f9}" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
-                <Option value="213,180,60,255,rgb:0.83529411764705885,0.70588235294117652,0.23529411764705882,1" type="QString" name="color"/>
+                <Option value="229,182,54,255,rgb:0.89803921568627454,0.71372549019607845,0.21176470588235294,1" type="QString" name="color"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
                 <Option value="0,0" type="QString" name="offset"/>
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
                 <Option value="MM" type="QString" name="offset_unit"/>
-                <Option value="152,129,43,255,rgb:0.59662775616083008,0.50420386053253985,0.1680628671702144,1" type="QString" name="outline_color"/>
+                <Option value="164,130,39,255,rgb:0.64144350347142753,0.50983443961242081,0.15126268406195162,1" type="QString" name="outline_color"/>
                 <Option value="solid" type="QString" name="outline_style"/>
                 <Option value="0.2" type="QString" name="outline_width"/>
                 <Option value="MM" type="QString" name="outline_width_unit"/>
@@ -342,18 +342,18 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleMarker" locked="0" id="{896fddcd-da84-4a91-8b7f-5e3715dfcc26}" enabled="1" pass="0">
+            <layer class="SimpleMarker" locked="0" id="{b0f766c4-c8fd-4341-807a-dbf3ff610739}" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="angle"/>
                 <Option value="square" type="QString" name="cap_style"/>
-                <Option value="213,180,60,255,rgb:0.83529411764705885,0.70588235294117652,0.23529411764705882,1" type="QString" name="color"/>
+                <Option value="229,182,54,255,rgb:0.89803921568627454,0.71372549019607845,0.21176470588235294,1" type="QString" name="color"/>
                 <Option value="1" type="QString" name="horizontal_anchor_point"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
                 <Option value="diamond" type="QString" name="name"/>
                 <Option value="0,0" type="QString" name="offset"/>
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
                 <Option value="MM" type="QString" name="offset_unit"/>
-                <Option value="152,129,43,255,rgb:0.59662775616083008,0.50420386053253985,0.1680628671702144,1" type="QString" name="outline_color"/>
+                <Option value="164,130,39,255,rgb:0.64144350347142753,0.50983443961242081,0.15126268406195162,1" type="QString" name="outline_color"/>
                 <Option value="solid" type="QString" name="outline_style"/>
                 <Option value="0.2" type="QString" name="outline_width"/>
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
@@ -385,10 +385,10 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" locked="0" id="{064993c9-bd1c-480c-8be7-3dbd3eaf501d}" enabled="1" pass="0">
+            <layer class="SimpleFill" locked="0" id="{a93d013d-4fa6-4fef-99bf-4264a8bee067}" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
-                <Option value="114,155,111,255,rgb:0.44705882352941179,0.60784313725490191,0.43529411764705883,1" type="QString" name="color"/>
+                <Option value="196,60,57,255,rgb:0.7686274509803922,0.23529411764705882,0.22352941176470589,1" type="QString" name="color"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
                 <Option value="0,0" type="QString" name="offset"/>
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
@@ -430,7 +430,7 @@
                 <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer class="SimpleFill" locked="0" id="{3726e312-6ffb-434f-b7ce-e803b640cdf0}" enabled="1" pass="0">
+            <layer class="SimpleFill" locked="0" id="{8391dee9-8107-4a20-832b-b9bda1f65b18}" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
                 <Option value="0,0,255,255,rgb:0,0,1,1" type="QString" name="color"/>
@@ -458,8 +458,8 @@
       <customproperties>
         <Option type="Map">
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -471,7 +471,7 @@
           <Option type="Map" name="QgsGeometryGapCheck">
             <Option value="0" type="double" name="allowedGapsBuffer"/>
             <Option value="false" type="bool" name="allowedGapsEnabled"/>
-            <Option type="invalid" name="allowedGapsLayer"/>
+            <Option value="" type="QString" name="allowedGapsLayer"/>
           </Option>
         </checkConfiguration>
       </geometryOptions>
@@ -592,7 +592,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
   </projectlayers>
   <layerorder>
-    <layer id="ne_10m_admin_0_countries_f70abd9c_80c2_43d6_b0fa_4dd20b92678c"/>
+    <layer id="ne_10m_admin_0_countries_92ec40da_9fd8_4d0d_bed0_0c5faba4994e"/>
   </layerorder>
   <labelEngineSettings/>
   <properties>
@@ -649,9 +649,10 @@ def my_form_open(dialog, layer, feature):
     <WCSLayers type="QStringList"/>
     <WCSUrl type="QString"></WCSUrl>
     <WFSLayers type="QStringList">
-      <value>ne_10m_admin_0_countries_f70abd9c_80c2_43d6_b0fa_4dd20b92678c</value>
+      <value>ne_10m_admin_0_countries_92ec40da_9fd8_4d0d_bed0_0c5faba4994e</value>
     </WFSLayers>
     <WFSLayersPrecision>
+      <ne_10m_admin_0_countries_92ec40da_9fd8_4d0d_bed0_0c5faba4994e type="int">8</ne_10m_admin_0_countries_92ec40da_9fd8_4d0d_bed0_0c5faba4994e>
       <ne_10m_admin_0_countries_f70abd9c_80c2_43d6_b0fa_4dd20b92678c type="int">8</ne_10m_admin_0_countries_f70abd9c_80c2_43d6_b0fa_4dd20b92678c>
     </WFSLayersPrecision>
     <WFSTLayers>
@@ -748,7 +749,7 @@ def my_form_open(dialog, layer, feature):
   <Sensors/>
   <ProjectViewSettings rotation="0" UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmin="4.03951012678261989" ymin="52.03125416315126728" xmax="4.6725451251556418" ymax="52.41641401155894897">
+    <DefaultViewExtent xmin="-189" ymin="-118.17692540361446163" xmax="189" ymax="111.81102640361444855">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
         <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -813,7 +814,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings destinationLayerSource="C:/Users/kisho/qgis/qg_test/countries.geojson|geometrytype=Polygon|uniqueGeometryType=yes" destinationLayerProvider="ogr" autoAddTrackVertices="0" autoCommitFeatures="0" destinationFollowsActiveLayer="1" destinationLayer="ne_10m_admin_0_countries_f70abd9c_80c2_43d6_b0fa_4dd20b92678c" destinationLayerName="countries">
+  <ProjectGpsSettings destinationLayerSource="C:/Users/kisho/qgis/qg_test_40/countries.geojson|geometrytype=Polygon|uniqueGeometryType=yes" destinationLayerProvider="ogr" autoAddTrackVertices="0" autoCommitFeatures="0" destinationFollowsActiveLayer="1" destinationLayer="ne_10m_admin_0_countries_92ec40da_9fd8_4d0d_bed0_0c5faba4994e" destinationLayerName="countries — ne_10m_admin_0_countries">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
